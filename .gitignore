@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+wheels/
+*.egg-info/
+.pytest_cache/
+notebooks/_archive/
+README_archives/
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Datasets (trop volumineux, hébergés sur Drive)
+data/
+*.h5
+*.csv
+*.pkl
+*.dat
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_meta
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Modèles entraînés et résultats lourds
+models/*.pt
+models/*.pth
+models/*.h5
+outputs/
+logs/
